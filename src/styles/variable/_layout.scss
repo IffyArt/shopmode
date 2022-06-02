@@ -1,0 +1,19 @@
+$height_navbar: 100px;
+$height_banner: 400px;
+
+$margin_big: 60px;
+$margin_base: 40px;
+$margin_small: 20px;
+
+$padding_big: 30px;
+$padding_base: 20px;
+$padding_small: 10px;
+
+$z-index_back: -1;
+$z-index_base: 10;
+$z-index_front: 100;
+$z-index_over-layout: 1000;
+
+// 20px 30px
+$block-padding_base: $padding_base $padding_big;
+$block-padding_small: $padding_small $padding_base;

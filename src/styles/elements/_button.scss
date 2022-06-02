@@ -1,0 +1,9 @@
+.button {
+  display: inline-flex;
+  padding: $block-padding_base;
+  border: 3px solid $color_white;
+  background-color: $color_accent;
+  color: $color_white;
+  text-decoration: none;
+  font-size: 1.25rem;
+}

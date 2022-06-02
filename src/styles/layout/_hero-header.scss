@@ -1,0 +1,39 @@
+.hero-header {
+  display: flex;
+  min-height: 100vh;
+  background-color: $color_primary;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    padding: $height_navbar 0;
+
+    @extend %layout-container;
+  }
+
+  &__info {
+    z-index: $z-index_base;
+    flex: 2;
+    font-size: 1.25rem;
+
+    b {
+      color: $color_accent;
+    }
+    h1 {
+      font-weight: 500;
+      font-size: 4.5rem;
+    }
+  }
+  &__cover {
+    position: relative;
+    flex: 1;
+    height: 100%;
+
+    img {
+      position: absolute;
+      right: 0;
+      bottom: -$height_navbar;
+      width: 150%;
+    }
+  }
+}

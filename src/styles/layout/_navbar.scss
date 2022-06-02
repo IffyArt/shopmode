@@ -1,0 +1,13 @@
+.navbar {
+  position: absolute;
+  width: 100%;
+  background-color: #fff;
+  height: $height_navbar;
+
+  &__container {
+    @extend %layout-container;
+    > ul {
+      display: flex;
+    }
+  }
+}

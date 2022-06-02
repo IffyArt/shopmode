@@ -1,0 +1,26 @@
+body {
+  color: $color_text;
+  letter-spacing: 2px;
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 1.4;
+}
+
+.margin-top-big {
+  margin-top: $margin_big;
+}
+.margin-top {
+  margin-top: $margin_base;
+}
+.margin-top-small {
+  margin-top: $margin_small;
+}
+
+.margin-bottom-big {
+  margin-bottom: $margin_big;
+}
+.margin-bottom {
+  margin-bottom: $margin_base;
+}
+.margin-bottom-small {
+  margin-bottom: $margin_small;
+}
